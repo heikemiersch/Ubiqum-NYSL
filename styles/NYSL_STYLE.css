@@ -1,0 +1,342 @@
+* {
+  font-family: "Chilanka", cursive;
+}
+
+body {
+  background-color: rgb(207, 247, 206);
+}
+
+h1 {
+  font-size: 70px;
+  text-align: left;
+  font-weight: 200;
+  margin-top: 50px;
+  padding-top: 18px;
+  padding-left: 30px;
+  background-color: rgb(118, 211, 89, 0.6);
+  background-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 450px;
+}
+
+h4 {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 420px;
+  text-indent: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.heading {
+  display: inline;
+  margin-top: 30px;
+}
+
+.headings {
+  text-align: center;
+  font-size: 25px;
+}
+
+.package {
+  position: relative;
+  width: 100%;
+}
+
+.package div {
+  float: left;
+  position: relative;
+  margin-top: 5%;
+  object-fit: cover;
+  object-position: 100% 0%;
+  display: block;
+  max-height: 300px;
+}
+
+img {
+  width: 332px;
+}
+
+nav {
+  width: 100%;
+  float: left;
+  background-color: rgb(230, 247, 197);
+  padding-bottom: 10px;
+}
+
+nav ul li {
+  font-size: 20px;
+  list-style: none;
+  float: left;
+}
+
+ul li a {
+  text-decoration: none;
+  color: darkgreen;
+  padding: 10px;
+}
+
+ul li a:hover {
+  color: crimson;
+}
+
+.members {
+  float: right;
+}
+
+.logo {
+  width: 10em;
+  float: right;
+  margin-top: -12.5%;
+  margin-right: 5%;
+}
+
+.banner {
+  position: absolute;
+  width: 34%;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -5%;
+  margin-left: 32%;
+  padding-top: 10px;
+}
+
+.schedule {
+  font-size: 20px;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.about {
+  font-size: 20px;
+  margin-top: 33%;
+  text-align: center;
+  line-height: 15px;
+}
+
+.contact {
+  margin-top: 32%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact span {
+  color: rgb(207, 247, 206);
+}
+
+.rulestext {
+  padding-top: 370px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+form {
+  text-indent: 10px;
+}
+
+form a {
+  text-decoration: none;
+  color: rgb(218, 72, 14);
+}
+
+.list-with-letters {
+  list-style: lower-alpha;
+}
+
+td {
+  border: 1px solid #a8a9b4;
+  padding: 10px 15px;
+}
+
+table {
+  width: 80%;
+  margin: 4% 8%;
+}
+
+.tabletop {
+  text-indent: 8%;
+}
+
+.table-bottom {
+  text-indent: 8%;
+}
+
+.select-wrapper {
+  width: 400px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+select {
+  border: none;
+  background-color: rgb(207, 247, 206);
+  width: 100%;
+  height: 130px;
+  /* makes all my options visible in this case */
+  padding-left: 10px;
+  background: url(fff-0-2.png) repeat;
+  color: rgb(141, 133, 133);
+  outline: none;
+  /*makes the blue outline disappear when one selects an option */
+}
+
+input {
+  width: 50%;
+}
+
+.gender {
+  margin: 25px 25px 25px 0;
+}
+
+.gender input {
+  width: 5%;
+}
+
+.gender label {
+  margin-right: 20px;
+}
+
+.grade {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+.grade input {
+  width: 40px;
+  align-content: flex-end;
+}
+
+.grade label {
+  margin-right: 25px;
+}
+
+.school {
+  margin-top: 50px;
+}
+
+.permission {
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.signature {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.uniform {
+  width: 30%;
+  margin-top: -50px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100px;
+  justify-content: flex-start;
+  line-height: 30px;
+}
+
+.items {
+  width: 50%;
+}
+
+.container1 input {
+  text-indent: 5px;
+  width: 80%;
+}
+
+.chekall {
+  margin-top: 60px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 50%;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.container2 input {
+  width: 10%;
+  float: left;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 50%;
+  margin-top: 30px;
+  align-self: center;
+}
+
+.container3 input {
+  width: 10%;
+  float: left;
+}
+
+.send {
+  width: 10%;
+  margin-top: 25px;
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: rgb(211, 52, 12);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container4 {
+  line-height: 30px;
+  margin-top: 38px;
+}
+
+.map-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 5%;
+}
+
+.map-items {
+  justify-self: center;
+  align-self: initial;
+}
+
+.map-items p {
+  font-size: 30px;
+}
+
+.hr {
+  border-top: 4px solid rgb(118, 211, 89, 0.6);
+  width: 100%;
+}
+
+iframe {
+  border: 1px solid rgb(44, 40, 40);
+  width: 500px;
+  height: 300px;
+}
+
+/* * {
+    border: 1px solid black;
+} */
