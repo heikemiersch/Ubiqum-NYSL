@@ -1,5 +1,7 @@
 * {
   font-family: "Chilanka", cursive;
+  /* border: 1px solid grey; */
+
 }
 
 body {
@@ -49,7 +51,7 @@ span {
   width: 100%;
 }
 
-.package div {
+.package img {
   float: left;
   position: relative;
   margin-top: 5%;
@@ -161,8 +163,11 @@ table {
   margin: 4% 8%;
 }
 
-.tabletop {
-  text-indent: 8%;
+.table-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .table-bottom {
@@ -337,6 +342,4 @@ iframe {
   height: 300px;
 }
 
-/* * {
-    border: 1px solid black;
-} */
+@media all and (max-width: 500px) {}
